@@ -1,4 +1,4 @@
-// Demonstrate the behavior of the stack: growing up or growing down.
+// Demonstrate the stack behavior: growing up or growing down.
 
 #include <stdio.h>
 
@@ -18,8 +18,8 @@ void f(int *x)
     printf("address of y: %p\n", &y);
 
     if (x > &y) {
-        printf("The stack grows downward.\n");
+        printf("The stack grows down.\n");
     } else {
-        printf("The stack grows upward.\n");
+        printf("The stack grows up.\n");
     }
 }
